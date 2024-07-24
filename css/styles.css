@@ -1,26 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    background-color: #FFFFFF; 
 }
 
 a {
@@ -32,24 +13,7 @@ ul {
     list-style: none;
 }
 
-.container {
-    width: 1440px;
-    margin: auto;
-
-}
-
 /* Header*/
-
-header {
-    height: 72px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-menu {
-    display: flex;
-}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -60,8 +24,6 @@ header {
     text-align: left;
     text-transform: uppercase;
     color: #4D5AE5;
-    /* margin-left: 156px; */
-    margin-right: 76px;
 
 }
 
@@ -78,11 +40,6 @@ header {
     color: #2E2F42;
 }
 
-.menu {
-    display: flex;
-    gap: 40px;
-}
-
 .navigation:hover,
 .contacts:hover,
 .navigation:focus,
@@ -92,11 +49,6 @@ header {
 
 .address-content {
     font-style: normal;
-}
-
-.address-item {
-    display: flex;
-    gap: 40px;
 }
 
 .contacts {
@@ -112,12 +64,6 @@ header {
 
 .main-section {
     background-color: #2E2F42;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .main-title {
@@ -127,8 +73,6 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    width: 496px;
-    margin-bottom: 48px;
 }
 
 .button-main-section {
@@ -141,40 +85,23 @@ header {
     text-align: left;
     color: #FFFFFF;
     cursor: pointer;
-    padding: 16px 32px;
-    border: none;
 }
 
 .button-main-section:hover,
 .button-main-section:focus {
-    background-color: #404BBF;
+    background-color: #404BBF; 
 }
 
 
 /* Second section */
 
-.title-second-section {
-    display: none;
-}
-
-.title-advantages {
+.title-advatages {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    margin-bottom: 8px;
-}
-
-.list-advantages {
-    display: flex;
-    margin: 120px 156px;
-    gap: 24px;
-}
-
-.advantages-item {
-    width: 264px;
 }
 
 .description-advantages {
@@ -186,12 +113,10 @@ header {
     color: #434455;
 }
 
-/* Third section */
+/* Third section */ 
 
 .team-section {
     background-color: #F4F4FD;
-    height: 732px;
-    padding: 120px 156px;
 }
 
 .title-team-section {
@@ -202,23 +127,10 @@ header {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-bottom: 72px;
-}
-
-.team-card {
-    display: flex;
-    align-items: center;
-    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    width: 264px;
-    height: 380px;
-}
-
-.name-box {
-    margin: 32px 16px;
 }
 
 .title-name {
@@ -239,11 +151,7 @@ header {
     color: #434455;
 }
 
-/* Fourth section */
-
-.porfolio-section {
-    padding: 120px 156px;
-}
+/* Fourth section */ 
 
 .title-portfolio {
     font-size: 36px;
@@ -253,25 +161,6 @@ header {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    margin-bottom: 72px;
-}
-
-.list-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-
-.portfolio-name {
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.portfolio-item {
-    width: 360px;
-    height: 420px;
 }
 
 .title-project {
@@ -281,7 +170,6 @@ header {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    margin-bottom: 8px;
 }
 
 .text-project {
@@ -293,20 +181,12 @@ header {
     color: #434455;
 }
 
-/* Footer */
+/* Footer */ 
 
 .footer-info {
     background-color: #2E2F42;
-    height: 320px;
-    padding-left: 156px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-.footer-block {
-    width: 264px;
-}
 
 .logo-second-part-footer {
     color: #F4F4FD;
@@ -319,6 +199,4 @@ header {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
-    margin-top: 16px;
 }
-
