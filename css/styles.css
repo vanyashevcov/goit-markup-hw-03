@@ -31,6 +31,7 @@ img {
 
 .header-div {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav {
@@ -124,7 +125,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
+    text-align: center;
     color: #FFFFFF;
     cursor: pointer;
     display: block;
@@ -144,6 +145,20 @@ img {
 
 .advantages-section {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .advantages-list {
