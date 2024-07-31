@@ -9,7 +9,12 @@ a {
     text-decoration: none;
 }
 
-ul {
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -28,13 +33,13 @@ img {
 /* Header*/
 
 .header {
-    max-height: 72px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-div {
     display: flex;
     justify-content: space-between;
+    padding: 24px 0;
 }
 
 .nav {
@@ -120,6 +125,8 @@ img {
     color: #FFFFFF;
     max-width: 496px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -137,6 +144,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
