@@ -38,8 +38,7 @@ img {
 
 .header-div {
     display: flex;
-    justify-content: space-between;
-    padding: 24px 0;
+    align-items: center;
 }
 
 .nav {
@@ -56,6 +55,10 @@ img {
     text-align: left;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+
+.header-logo {
+    padding: 24px 0;
     margin-right: 76px
 }
 
@@ -65,12 +68,14 @@ img {
 
 .header-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
 .menu-item {}
 
 .menu-link {
+    display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -89,22 +94,26 @@ img {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
 .address-item {}
 
 .contacts {
+    display: block;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    padding: 24px 0;
 }
 
 /* Hero */
@@ -226,6 +235,7 @@ img {
     width: calc((100% - 72px)/4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-list-div {
